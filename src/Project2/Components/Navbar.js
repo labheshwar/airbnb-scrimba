@@ -1,7 +1,11 @@
-export default function NavBar(){
-    return (
-        <nav className="navbar">
-            <img src='./Pictures/airbnblogo.png' className="nav--logo"></img>
-        </nav>
-    )
+export default function NavBar() {
+  return (
+    <nav className='navbar'>
+      <img
+        src={require('../Pictures/airbnblogo.png')}
+        alt='logo'
+        className='nav--logo'
+      ></img>
+    </nav>
+  );
 }
